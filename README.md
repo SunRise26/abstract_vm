@@ -2,10 +2,14 @@
 AbstractVM is a machine that uses a stack to compute simple arithmetic expressions. <br />
 These arithmetic expressions are provided to the machine as basic assembly programs
 
-As for any assembly language, the language of AbstractVM is composed of a series of
-instructions, with one instruction per line. However, AbstractVM’s assembly language
-has a limited type system, which is a major difference from other real world assembly
+As for any assembly language, the language of AbstractVM is composed of a series of <br />
+instructions, with one instruction per line. However, AbstractVM’s assembly language <br />
+has a limited type system, which is a major difference from other real world assembly <br />
 languages.
+
+This machine is able to run programs from a file passed as a parameter and from <br />
+the standard input. When reading from the standard input, the end of the program is <br />
+indicated by the special symbol ";;" otherwise absent.
 
 Comments: Comments start with a ’;’ and finish with a newline. <br />
 A comment can be either at the start of a line, or after an instruction.
