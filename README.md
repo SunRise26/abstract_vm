@@ -7,10 +7,11 @@ instructions, with one instruction per line. However, AbstractVM’s assembly la
 has a limited type system, which is a major difference from other real world assembly
 languages.
 
-Comments: Comments start with a ’;’ and finish with a newline. <br \>
+Comments: Comments start with a ’;’ and finish with a newline. <br />
 A comment can be either at the start of a line, or after an instruction.
 
 push v: Pushes the value v at the top of the stack. The value v has one of the following form:
+
 	int8(n) : Creates an 8-bit integer with value n.
 	int16(n) : Creates a 16-bit integer with value n.
 	int32(n) : Creates a 32-bit integer with value n.
